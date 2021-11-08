@@ -145,8 +145,6 @@ p {
     width: 100%
 }
 
-
-
 .kredits {
     color: white;
     font-size: 14px;
@@ -158,5 +156,29 @@ p {
     padding-bottom: 62px;
     padding-top: 62px;
     background: #164d7a
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90@;
+    }
 }
 
