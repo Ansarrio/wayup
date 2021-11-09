@@ -1,0 +1,258 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: ;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.header {
+    background: -webkit-linear-gradient(135deg, rgb(102, 204, 255), rgb(51, 153, 204));
+    background: -moz-linear-gradient(135deg, rgb(102, 204, 255), rgb(51, 153, 204));
+    background: linear-gradient(135deg, rgb(102, 204, 255), rgb(51, 153, 204));
+    padding-top: 70px;
+    padding-bottom: 145px;
+    color: white;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dream {
+    width: 560px;
+    margin-top: 150px; 
+}
+
+.live {
+    font-size: 36px;
+    width: 560px;
+}
+
+.live span {
+    font-size: 59px;
+}
+
+.intro {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 45px;
+    margin-top: 30px;
+    width: 400px;
+    
+}
+
+.btn {
+    background: #ffcc33;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 222px;
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #daac24;
+}
+
+.plane {
+    margin-top: 10px;
+}
+
+.chance {
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+.what {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    text-align: center;
+    width: 304px;
+}
+
+.timejpg {
+    padding-bottom: 30px;
+}
+
+.time-title {
+    font-style: 19px;
+}
+
+.time-text {
+    font-style: 15px;
+}
+
+.mail {
+    background: #ecf3f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.input {
+    width: 100%;
+    border: 1px solid #cccccc;
+    font-style: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 47px;
+    padding-left: 25px;
+    margin: 0 0 16px 0;
+}
+
+.btn-form {
+    border: 0;
+    cursor: pointer;
+    width: 350px;
+    text-align: center;
+    display: block;
+    width: 100%
+}
+
+.kredits {
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.footer {
+    padding-bottom: 62px;
+    padding-top: 62px;
+    background: #164d7a
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .live {
+        font-size: 36px;
+        width: 460px;
+    }
+    .intro {
+        width: 460px;
+    }
+    .plane {
+        width: 500px;
+    }
+}    
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .line {
+        flex-direction: column;
+        text-align: center;
+    }
+    .dream {
+        width: 450px;  
+        text-align: center;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 150px;
+    }
+    .intro {
+        width: 450px;
+    }
+    .btn {
+        width: 100%;
+    }
+    .plane {
+        display: block;
+        width: 641px;
+        margin: 10px auto 0;
+    }
+    .result {
+        flex-direction: column;
+    }
+    .time {
+        width: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .plane {
+        width: 540px;
+    }
+    form {
+        width: 540px;
+        margin: 0 auto;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .live {
+        font-size: 26px;
+    }
+    .live span {
+        font-size: 49px;
+    }
+    .dream {
+        width: auto;
+    }
+    .live {
+        width: auto;
+    }
+    .intro {
+        width: auto;
+    }
+    .plane {
+        width: 90%;
+    }
+    .btn {
+        width: auto;
+    }
+    .form {
+        width: auto;
+        margin: 0 auto;
+    }
+    .btn-form {
+        width: 100%;
+        margin: 0 auto;
+    }
